@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Ex2</string>
-
-    <string name="app_name">Ex2</string>
     <string name="intro">This exercise demonstartes the: activity life-ctcle callback methods, views referecing, and On-click handler</string>
     <string name="name">Name:</string>
     <string name="firstName">enter here your first name</string>

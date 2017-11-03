@@ -38,11 +38,10 @@
         android:layout_height="40dp"
         android:layout_marginTop="150dp"
         android:layout_marginLeft="120dp"
-        android:text="@string/firstName"
+        android:hint="@string/firstName"
         android:textSize="10dp"
         android:fontFamily="serif"
         android:textStyle="bold"
-        android:textColor=""
         android:background="@drawable/border"
         />
 
@@ -53,7 +52,8 @@
         android:text="@string/button"
         android:fontFamily="serif"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="152dp"/>
+        android:layout_marginLeft="152dp"
+        android:onClick="buttonClicked"/>
 
 
 
