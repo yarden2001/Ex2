@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.madaim.ex2.MainActivity">
+    tools:context="com.example.madaim.ex2.MainActivity"
+    android:background="@drawable/border2">
 
 
     <TextView
@@ -14,10 +15,10 @@
         android:textStyle="bold"
         android:fontFamily="serif"
         android:textSize="20dp"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="20dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="25dp" />
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:id="@+id/tvName"
@@ -25,7 +26,35 @@
         android:layout_height="wrap_content"
         android:text="@string/name"
         android:textStyle="bold"
-        android:fontFamily="serif"/>
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="70dp"
+        android:fontFamily="serif"
+        android:layout_alignParentTop="true" />
+
+
+    <EditText
+        android:id="@+id/etFirNam"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:text="@string/firstName"
+        android:textSize="10dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor=""
+        android:background="@drawable/border"
+        />
+
+    <Button
+        android:id="@+id/btTry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:fontFamily="serif"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="152dp"/>
+
 
 
 </RelativeLayout>
