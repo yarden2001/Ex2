@@ -38,7 +38,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="150dp"
         android:layout_marginLeft="120dp"
-        android:hint="@string/firstName"
+        android:hint="@string/name"
         android:textSize="10dp"
         android:fontFamily="serif"
         android:textStyle="bold"
@@ -51,9 +51,11 @@
         android:layout_height="wrap_content"
         android:text="@string/button"
         android:fontFamily="serif"
-        android:layout_marginTop="200dp"
         android:layout_marginLeft="152dp"
-        android:onClick="buttonClicked"/>
+        android:onClick="buttonClicked"
+        android:layout_below="@+id/etFirNam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
 
 
 
